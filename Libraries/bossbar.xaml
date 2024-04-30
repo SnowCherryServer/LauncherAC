@@ -1,0 +1,10 @@
+<Border Margin="0,0,0,5" Padding="2,8" BorderThickness="1" Background="{DynamicResource ColorBrush5}" CornerRadius="5" VerticalAlignment="Top" BorderBrush="{DynamicResource ColorBrush3}" Opacity="0.7">
+    <Grid Margin="10,0,0,0">
+        <TextBlock x:Name="NewsHint" FontWeight="Bold" FontSize="12" VerticalAlignment="Center" Foreground="#FF000000">
+                🤔 SnowCherry 公告主页由雪之樱团队共同维护
+    </TextBlock>
+        <TextBlock x:Name="Hint2" FontWeight="Bold" FontSize="12" VerticalAlignment="Center" Foreground="#00000000">
+                😎 本项目由 HomepageBuilder 驱动
+    </TextBlock>
+    </Grid>
+</Border>

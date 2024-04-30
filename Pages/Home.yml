@@ -1,5 +1,6 @@
 name: Home
 cards:
+ - bossbar
  - Welcome
  - test
- - card
+ - footer
