@@ -1,0 +1,6 @@
+name: Home
+fill:
+   templates:
+    - MarkdownCard
+    - Luca
+    - Raw

@@ -1,9 +1,5 @@
-name: rootLibrary
+name: root
 fill:
-   templates:
-    - MarkdownCard
-    - Luca
-    - Raw
    canswap: true
    s: true
    isswaped: ${s}
