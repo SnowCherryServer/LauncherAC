@@ -1,6 +1,6 @@
-name: Home
+name: News
 fill:
-   s: false
+   s: true
    templates:
     - MarkdownCard
     - Luca
