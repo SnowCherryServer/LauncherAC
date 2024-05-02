@@ -1,6 +1,6 @@
-name: Home
+name: Others
 fill:
-   s: false
+   s: true
    templates:
     - MarkdownCard
     - Raw

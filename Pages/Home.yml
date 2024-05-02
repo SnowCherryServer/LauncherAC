@@ -2,6 +2,7 @@ name: Home
 cards:
  - bossbar
  - Welcome
+ - functions
  - T:Separator | content = 测试
  - test
  - footer
