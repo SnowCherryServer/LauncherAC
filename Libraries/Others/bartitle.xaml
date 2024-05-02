@@ -1,14 +1,14 @@
-<local:MyCard Margin="0,0,0,15">
+<!-- <local:MyCard Margin="0,0,0,15">
 <StackPanel Width="1000" HorizontalAlignment="Center">
   <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
   <Image MaxHeight="170" MinWidth="800" Stretch="UniformToFill" Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png"/>
   <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
 </StackPanel>
 
-    </local:MyCard>
+    </local:MyCard> -->
 
 <!-- 带标题 -->
-<local:MyCard Margin="0,0,0,15">
+<local:MyCard Margin="0,0,0,-8">
 <Border Style="{StaticResource VersionImageBorder}">
 <Border.Background>
 <ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
@@ -16,13 +16,13 @@
 <Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill" />
 </Border>
 <Border Style="{StaticResource VersionTitleBorder}" Margin="0,0,0,110">
-<TextBlock Style="{StaticResource VersionTitleBlock}" Text="test" />
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="SnowCherry" />
 </Border>
     </local:MyCard>
 
 
 <!-- 全图 -->
-<StackPanel Margin="0,40,0,0">
+<!-- <StackPanel Margin="0,40,0,0">
 <StackPanel HorizontalAlignment="Center">
     <Line Margin="-1,0" X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
     <Image Stretch="UniformToFill" Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png"/>
@@ -31,4 +31,4 @@
 <StackPanel Margin="20,10,20,30">
     ${$ChildrenPresenter}
 </StackPanel>
-</StackPanel>
+</StackPanel> -->

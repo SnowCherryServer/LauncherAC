@@ -1,6 +1,7 @@
 name: Home
 fill:
    s: false
+   canswap: false
    title: ${$GetMdH1}
    templates:
     - MarkdownCard

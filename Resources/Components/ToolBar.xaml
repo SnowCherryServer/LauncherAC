@@ -8,7 +8,7 @@ ${@IF|person|
 </StackPanel>
 }
 <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-<local:MyIconTextButton Text="启动" ToolTip="快速启动游戏" EventType="启动游戏"
+<local:MyIconTextButton Text="进服瞅瞅" ToolTip="快速启动游戏" EventType="启动游戏"
     EventData="1.20.4" LogoScale="0.85" Logo="{StaticResource LaunchIcon}" />
 
 </StackPanel>

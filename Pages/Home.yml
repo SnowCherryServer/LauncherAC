@@ -1,10 +1,10 @@
 name: Home
 cards:
  - bossbar
- - www
+ - bartitle
  - Welcome
  - T:Separator | content = 更新日志
- - test
+ - Ver3.0
  - T:Separator | content = 小玩意
  - functions
  - footer

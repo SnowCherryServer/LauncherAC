@@ -1,7 +1,5 @@
 # 欢迎来到我们的Minecraft服务器！
 
-![合影](https://s21.ax1x.com/2024/05/02/pkkYYuV.png "本次更新的 LOGO")
-
 欢迎来到我们的Minecraft服务器，这里是一个充满乐趣和冒险的地方！
 
 ## 关于我们的服务器
