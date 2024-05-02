@@ -2,6 +2,8 @@ name: News
 fill:
    s: true
    title: ${$GetMdH1}
+   version-id: ${file_name}
+   version-image-link: ${$GetLink|ImageSta}
    templates:
     - VersionMarkdownCard
     - Luca

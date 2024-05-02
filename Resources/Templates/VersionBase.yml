@@ -1,4 +1,5 @@
 components:
+ - ${@IF|$version-image-link|VersionHeaderImage}
  - ${@IF|!$not_finished|FlowDocumentViewer|Loading}
  - ${@IF|!$disable-websites|Websites}
  - ${@IF|!$disable-toolbar|ToolBar}

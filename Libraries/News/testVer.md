@@ -7,12 +7,7 @@ version-image-link: https://s21.ax1x.com/2024/05/02/pkkYYuV.png
 # 图片地址
 ---
 
-# Version 3.0
-## 添加的内容
-* 更好看的主城
-* 更实用的NPC
-* 菜单
+# Test Version
+## 测试测试
 
-
-> 部分更新可能需要等待服务器重启后应用
 

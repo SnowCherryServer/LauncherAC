@@ -5,6 +5,7 @@ cards:
  - Welcome
  - T:Separator | content = 更新日志
  - Ver3.0
+ - testVer
  - T:Separator | content = 小玩意
  - functions
  - footer
