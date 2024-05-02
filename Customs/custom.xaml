@@ -200,7 +200,8 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
 <StackPanel Style="{StaticResource ContentStack}">
 <FlowDocumentScrollViewer >
 <FlowDocument>
-<Paragraph>    欢迎来到我们的Minecraft服务器，这里是一个充满乐趣和冒险的地方！</Paragraph><Paragraph Style="{StaticResource H2}">关于我们的服务器</Paragraph><Paragraph>    我们的服务器致力于提供最佳的游戏体验，我们有丰富的游戏模式和活动等待着您的加入。</Paragraph><Paragraph Style="{StaticResource H2}">我们的使命</Paragraph><Paragraph>    我们的使命是为玩家打造一个友好、有趣的游戏环境，让您可以尽情享受Minecraft的乐趣。</Paragraph><Paragraph Style="{StaticResource H2}">加入我们</Paragraph><Paragraph>    现在就加入我们的服务器，和其他玩家一起探索无尽的世界，创造属于你自己的传奇！</Paragraph><Paragraph Style="{StaticResource H2}">联系我们</Paragraph><Paragraph>    如果您有任何问题或建议，请随时联系我们。您可以发送邮件至 <Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="mailto:example@email.com">example@email.com</local:MyTextButton></Underline> 或者通过我们的官方网站了解更多信息。</Paragraph><Paragraph>    感谢您的访问，期待和您在游戏中相见！</Paragraph>
+<Paragraph>    <Image Source="https://www.lightbeacon.top/pnh/newsimgs/Normal/1.20update.jpg" Margin="10,0,10,0" MaxHeight="500" />
+<TextBlock Text="1.20update" Style="{StaticResource imgTitle}" /></Paragraph><Paragraph>    欢迎来到我们的Minecraft服务器，这里是一个充满乐趣和冒险的地方！</Paragraph><Paragraph Style="{StaticResource H2}">关于我们的服务器</Paragraph><Paragraph>    我们的服务器致力于提供最佳的游戏体验，我们有丰富的游戏模式和活动等待着您的加入。</Paragraph><Paragraph Style="{StaticResource H2}">我们的使命</Paragraph><Paragraph>    我们的使命是为玩家打造一个友好、有趣的游戏环境，让您可以尽情享受Minecraft的乐趣。</Paragraph><Paragraph Style="{StaticResource H2}">加入我们</Paragraph><Paragraph>    现在就加入我们的服务器，和其他玩家一起探索无尽的世界，创造属于你自己的传奇！</Paragraph><Paragraph Style="{StaticResource H2}">联系我们</Paragraph><Paragraph>    如果您有任何问题或建议，请随时联系我们。您可以发送邮件至 <Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="mailto:example@email.com">example@email.com</local:MyTextButton></Underline> 或者通过我们的官方网站了解更多信息。</Paragraph><Paragraph>    感谢您的访问，期待和您在游戏中相见！</Paragraph>
 </FlowDocument>
 </FlowDocumentScrollViewer>
 </StackPanel>

@@ -1,7 +1,8 @@
 name: News
 fill:
    s: true
+   title: ${$GetMdH1}
    templates:
-    - MarkdownCard
+    - VersionMarkdownCard
     - Luca
     - Raw

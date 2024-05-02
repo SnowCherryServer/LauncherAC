@@ -3,4 +3,5 @@ fill:
    s: true
    templates:
     - MarkdownCard
+    - Luca
     - Raw

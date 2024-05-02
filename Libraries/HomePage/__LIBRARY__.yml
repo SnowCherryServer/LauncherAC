@@ -1,6 +1,8 @@
 name: Home
 fill:
    s: false
+   title: ${$GetMdH1}
    templates:
     - MarkdownCard
     - Raw
+    - Luca
