@@ -185,7 +185,41 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
   <Setter Property="FontSize" Value="12px" />
   <Setter Property="Margin" Value="8px,2px" />
 </Style>
-
+<Style TargetType="Border" x:Key="VersionImageBorder" >
+<Setter Property="HorizontalAlignment" Value="Center"/>
+<Setter Property="BorderThickness" Value="4"/>
+<Setter Property="VerticalAlignment" Value="Top"/>
+<Setter Property="BorderBrush" Value="{DynamicResource ColorBrush3}"/>
+<Setter Property="CornerRadius" Value="7"/>
+<Setter Property="MaxHeight" Value="150"/>
+</Style><Style TargetType="Border" x:Key="VersionTitleBorder" >
+<Setter Property="Margin" Value="0,-20,-1,10"/>
+<Setter Property="Background" Value="{DynamicResource ColorBrush3}"/>
+<Setter Property="Width" Value="190"/>
+<Setter Property="Height" Value="36"/>
+<Setter Property="CornerRadius" Value="7"/>
+<Setter Property="BorderThickness" Value="0,0,0,2"/>
+<Setter Property="BorderBrush" Value="{DynamicResource ColorBrush2}"/>
+</Style><Style TargetType="TextBlock" x:Key="VersionTitleBlock" >
+<Setter Property="HorizontalAlignment" Value="Center"/>
+<Setter Property="TextAlignment" Value="Center"/>
+<Setter Property="VerticalAlignment" Value="Center"/>
+<Setter Property="Foreground" Value="{DynamicResource ColorBrush7}"/>
+<Setter Property="Width" Value="180"/>
+<Setter Property="TextWrapping" Value="Wrap"/>
+<Setter Property="FontSize" Value="20"/>
+</Style><Style TargetType="local:MyButton" x:Key="LinkButtonBase" >
+<Setter Property="Margin" Value="0,0,5,5"/>
+<Setter Property="Height" Value="35"/>
+<Setter Property="Padding" Value="13,0"/>
+<Setter Property="EventType" Value="打开网页"/>
+</Style><Style TargetType="local:MyButton" x:Key="WikiLinkButton" BasedOn="{StaticResource LinkButtonBase}">
+<Setter Property="Grid.Column" Value="0"/>
+<Setter Property="Text" Value="SnowCherry Wiki"/>
+</Style><Style TargetType="local:MyButton" x:Key="QQLinkButton" BasedOn="{StaticResource LinkButtonBase}">
+<Setter Property="Grid.Column" Value="2"/>
+<Setter Property="Text" Value="QQ交流群"/>
+</Style>
 </StackPanel.Resources>
 <Border Margin="0,0,0,5" Padding="2,8" BorderThickness="1" Background="{DynamicResource ColorBrush5}" CornerRadius="5" VerticalAlignment="Top" BorderBrush="{DynamicResource ColorBrush3}" Opacity="0.7">
     <Grid Margin="10,0,0,0">
@@ -196,16 +230,134 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
                 😎 本项目由 HomepageBuilder 驱动
     </TextBlock>
     </Grid>
-</Border><local:MyCard Title="欢迎来到我们的Minecraft服务器！" CanSwap="True" IsSwaped="False" Style="{StaticResource Card}" >
+</Border><!-- <local:MyCard Margin="0,0,0,15">
+<StackPanel Width="1000" HorizontalAlignment="Center">
+  <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
+  <Image MaxHeight="170" MinWidth="800" Stretch="UniformToFill" Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png"/>
+  <Line X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
+</StackPanel>
+
+    </local:MyCard> -->
+
+<!-- 带标题 -->
+<local:MyCard Margin="0,0,0,-8">
+<Border Style="{StaticResource VersionImageBorder}">
+<Border.Background>
+<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
+</Border.Background>
+<Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill" />
+</Border>
+<Border Style="{StaticResource VersionTitleBorder}" Margin="0,0,0,110">
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="SnowCherry" />
+</Border>
+    </local:MyCard>
+
+
+<!-- 全图 -->
+<!-- <StackPanel Margin="0,40,0,0">
+<StackPanel HorizontalAlignment="Center">
+    <Line Margin="-1,0" X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
+    <Image Stretch="UniformToFill" Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png"/>
+    <Line Margin="-1,0" X1="0" X2="1" Stroke="{DynamicResource ColorBrush4}" StrokeThickness="3" HorizontalAlignment="Center" Stretch="Fill"/>
+</StackPanel>
+<StackPanel Margin="20,10,20,30">
+    
+</StackPanel>
+</StackPanel> --><local:MyCard Title="欢迎来到我们的Minecraft服务器！" CanSwap="False" IsSwaped="False" Style="{StaticResource Card}" >
 <StackPanel Style="{StaticResource ContentStack}">
 <FlowDocumentScrollViewer >
 <FlowDocument>
-<Paragraph>    <Image Source="https://www.lightbeacon.top/pnh/newsimgs/Normal/1.20update.jpg" Margin="10,0,10,0" MaxHeight="500" />
-<TextBlock Text="1.20update" Style="{StaticResource imgTitle}" /></Paragraph><Paragraph>    欢迎来到我们的Minecraft服务器，这里是一个充满乐趣和冒险的地方！</Paragraph><Paragraph Style="{StaticResource H2}">关于我们的服务器</Paragraph><Paragraph>    我们的服务器致力于提供最佳的游戏体验，我们有丰富的游戏模式和活动等待着您的加入。</Paragraph><Paragraph Style="{StaticResource H2}">我们的使命</Paragraph><Paragraph>    我们的使命是为玩家打造一个友好、有趣的游戏环境，让您可以尽情享受Minecraft的乐趣。</Paragraph><Paragraph Style="{StaticResource H2}">加入我们</Paragraph><Paragraph>    现在就加入我们的服务器，和其他玩家一起探索无尽的世界，创造属于你自己的传奇！</Paragraph><Paragraph Style="{StaticResource H2}">联系我们</Paragraph><Paragraph>    如果您有任何问题或建议，请随时联系我们。您可以发送邮件至 <Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="mailto:example@email.com">example@email.com</local:MyTextButton></Underline> 或者通过我们的官方网站了解更多信息。</Paragraph><Paragraph>    感谢您的访问，期待和您在游戏中相见！</Paragraph>
+<Paragraph>    欢迎来到我们的Minecraft服务器，这里是一个充满乐趣和冒险的地方！</Paragraph><Paragraph Style="{StaticResource H2}">关于我们的服务器</Paragraph><Paragraph>    我们的服务器致力于提供最佳的游戏体验，我们有丰富的游戏模式和活动等待着您的加入。</Paragraph><Paragraph Style="{StaticResource H2}">我们的使命</Paragraph><Paragraph>    我们的使命是为玩家打造一个友好、有趣的游戏环境，让您可以尽情享受Minecraft的乐趣。</Paragraph><Paragraph Style="{StaticResource H2}">加入我们</Paragraph><Paragraph>    现在就加入我们的服务器，和其他玩家一起探索无尽的世界，创造属于你自己的传奇！</Paragraph><Paragraph Style="{StaticResource H2}">联系我们</Paragraph><Paragraph>    如果您有任何问题或建议，请随时联系我们。您可以发送邮件至 <Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="mailto:example@email.com">example@email.com</local:MyTextButton></Underline> 或者通过我们的官方网站了解更多信息。</Paragraph><Paragraph>    感谢您的访问，期待和您在游戏中相见！</Paragraph>
 </FlowDocument>
 </FlowDocumentScrollViewer>
 </StackPanel>
-</local:MyCard><local:MyCard Title="工具广场" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+</local:MyCard><ContentControl Content="更  新  日  志" Template="{StaticResource Separator}"/><local:MyCard Title="Version 3.0" CanSwap="True" IsSwaped="True" Style="{StaticResource Card}" >
+<StackPanel Style="{StaticResource ContentStack}">
+<Border Style="{StaticResource VersionImageBorder}">
+<Border.Background>
+<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
+</Border.Background>
+<Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill"/>
+</Border>
+<Border Style="{StaticResource VersionTitleBorder}" >
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="Ver3.0" />
+</Border><FlowDocumentScrollViewer >
+<FlowDocument>
+<Paragraph Style="{StaticResource H2}">添加的内容</Paragraph><List>
+<ListItem><Paragraph>更好看的主城</Paragraph></ListItem>
+<ListItem><Paragraph>更实用的NPC</Paragraph></ListItem>
+<ListItem><Paragraph>菜单</Paragraph></ListItem>
+</List><BlockUIContainer>
+  <Border Style="{StaticResource Quote}">
+    <TextBlock>部分更新可能需要等待服务器重启后应用</TextBlock>
+  </Border>
+</BlockUIContainer>
+</FlowDocument>
+</FlowDocumentScrollViewer><GroupBox Header="查看详细日志" BorderBrush="{DynamicResource ColorBrush3}" Margin="0,10,0,0">
+<Grid UseLayoutRounding="True" Margin="10,10,10,10">
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width="20*"/>
+<ColumnDefinition Width="12*"/>
+</Grid.ColumnDefinitions>
+<local:MyButton Style="{StaticResource QQLinkButton}" EventData="https://qm.qq.com/q/YRVtpEwVCa"/>
+<local:MyButton Style="{StaticResource WikiLinkButton}" EventData="https://wiki.snowymc.top" ColorType="Highlight" />
+</Grid>
+</GroupBox><Grid Margin="0,10,6,0">
+
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+<Path Margin="8,0" Width="18" Height="18" Fill="{DynamicResource ColorBrush5}"
+                    Stretch="Uniform"
+                    Data="M100 100 L300 100 L250 300 L50 300 Z "/>
+<TextBlock Text="By SnowCherry" FontSize="14" VerticalAlignment="Center" Foreground="{DynamicResource ColorBrush5}"/>
+</StackPanel>
+
+<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+<local:MyIconTextButton Text="进服瞅瞅" ToolTip="快速启动游戏" EventType="启动游戏"
+    EventData="1.20.4" LogoScale="0.85" Logo="{StaticResource LaunchIcon}" />
+
+</StackPanel>
+</Grid>
+</StackPanel>
+</local:MyCard><local:MyCard Title="Test Version" CanSwap="True" IsSwaped="True" Style="{StaticResource Card}" >
+<StackPanel Style="{StaticResource ContentStack}">
+<Border Style="{StaticResource VersionImageBorder}">
+<Border.Background>
+<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
+</Border.Background>
+<Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill"/>
+</Border>
+<Border Style="{StaticResource VersionTitleBorder}" >
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="testVer" />
+</Border><FlowDocumentScrollViewer >
+<FlowDocument>
+<Paragraph Style="{StaticResource H2}">测试测试</Paragraph>
+</FlowDocument>
+</FlowDocumentScrollViewer><GroupBox Header="查看详细日志" BorderBrush="{DynamicResource ColorBrush3}" Margin="0,10,0,0">
+<Grid UseLayoutRounding="True" Margin="10,10,10,10">
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width="20*"/>
+<ColumnDefinition Width="12*"/>
+</Grid.ColumnDefinitions>
+<local:MyButton Style="{StaticResource QQLinkButton}" EventData="https://qm.qq.com/q/YRVtpEwVCa"/>
+<local:MyButton Style="{StaticResource WikiLinkButton}" EventData="https://wiki.snowymc.top" ColorType="Highlight" />
+</Grid>
+</GroupBox><Grid Margin="0,10,6,0">
+
+<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+<Path Margin="8,0" Width="18" Height="18" Fill="{DynamicResource ColorBrush5}"
+                    Stretch="Uniform"
+                    Data="M100 100 L300 100 L250 300 L50 300 Z "/>
+<TextBlock Text="By SnowCherry" FontSize="14" VerticalAlignment="Center" Foreground="{DynamicResource ColorBrush5}"/>
+</StackPanel>
+
+<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+<local:MyIconTextButton Text="进服瞅瞅" ToolTip="快速启动游戏" EventType="启动游戏"
+    EventData="1.20.4" LogoScale="0.85" Logo="{StaticResource LaunchIcon}" />
+
+</StackPanel>
+</Grid>
+</StackPanel>
+</local:MyCard><ContentControl Content="小  玩  意" Template="{StaticResource Separator}"/><local:MyCard Title="工具广场" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -216,19 +368,10 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
             <local:MyButton EventType="下载文件" EventData="{Binding ElementName=web,Path=Text}" Text="开始下载" Margin="5,0,0,0" Height="30" Grid.Column="2" Padding="2,0,2,0" ColorType="Highlight"/>
         </Grid>
         	<local:MyHint Margin="0,10,0,10" IsWarn="False" Text="使用 PCL 的高速多线程下载引擎下载任意文件。请注意，部分网站（例如百度网盘）可能会报错(403)已禁止，无法正常下载。"/>
-	<local:MyHint Margin="0,0,0,10" IsWarn="True" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载" />
+     <local:MyHint Margin="0,0,0,10" IsWarn="True" Text="链接必须为以http://或https://开头的网址，部分网址可能无法下载" />
 </StackPanel>
-</local:MyCard><ContentControl Content="测  试" Template="{StaticResource Separator}"/><local:MyCard Title="111" CanSwap="True" IsSwaped="True" Style="{StaticResource Card}" >
-<StackPanel Style="{StaticResource ContentStack}">
-<FlowDocumentScrollViewer >
-<FlowDocument>
-<Paragraph Style="{StaticResource H2}">2333</Paragraph><Paragraph Style="{StaticResource H3}">444444</Paragraph><Paragraph Style="{StaticResource H4}">233333</Paragraph><List>
-<ListItem><Paragraph>11478944</Paragraph></ListItem>
-</List>
-</FlowDocument>
-</FlowDocumentScrollViewer>
-</StackPanel>
-</local:MyCard><local:MyCard Margin="0,10,0,20">
+</local:MyCard>
+<local:MyCard Margin="0,10,0,20">
 <StackPanel>
   <Grid Margin="26,20,20,2">
     <StackPanel>
