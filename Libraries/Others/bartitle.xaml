@@ -16,7 +16,7 @@
 <Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill" />
 </Border>
 <Border Style="{StaticResource VersionTitleBorder}" Margin="0,0,0,110">
-<TextBlock Style="{StaticResource VersionTitleBlock}" Text="SnowCherry" />
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="主页版本 0.0.3" />
 </Border>
     </local:MyCard>
 
