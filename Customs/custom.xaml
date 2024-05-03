@@ -243,9 +243,9 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
 <local:MyCard Margin="0,0,0,-8">
 <Border Style="{StaticResource VersionImageBorder}">
 <Border.Background>
-<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
+<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/03/pkA96Qx.jpg" Stretch="UniformToFill" />
 </Border.Background>
-<Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill" />
+<Image Source="https://s21.ax1x.com/2024/05/03/pkA96Qx.jpg" Opacity="0" Stretch="Fill"/>
 </Border>
 <Border Style="{StaticResource VersionTitleBorder}" Margin="0,0,0,110">
 <TextBlock Style="{StaticResource VersionTitleBlock}" Text="主页版本 0.0.3" />
