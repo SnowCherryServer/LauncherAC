@@ -1,0 +1,14 @@
+<local:MyCard Margin="0,0,0,12" Title="更多" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="24,40,24,15">
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+               <local:MyButton Grid.Column="0" Margin="0,0,10,10" Height="35" Text="今日人品" EventType="今日人品"/>
+                <local:MyButton Grid.Column="1" Margin="0,0,0,10" Height="35" Text="Minecraft新闻"
+                    EventType="打开帮助" EventData="https://news.bugjump.net/News.json"
+                    ToolTip="作者：最亮的信标(Light-Beacon)" />
+          </Grid>
+     </StackPanel>
+</local:MyCard>

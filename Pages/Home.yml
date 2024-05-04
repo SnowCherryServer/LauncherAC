@@ -8,5 +8,5 @@ cards:
  - testVer
  - T:Separator | content = 小玩意
  - functions
- - T:Separator | content = 周边新闻
+ - news
  - footer
