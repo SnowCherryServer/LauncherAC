@@ -267,7 +267,7 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
 <StackPanel Style="{StaticResource ContentStack}">
 <FlowDocumentScrollViewer >
 <FlowDocument>
-<Paragraph Style="{StaticResource H2}">最新公告</Paragraph><Paragraph>    欢迎来到SnowCherry(雪之樱)服务器！我们致力于为玩家提供最佳的游戏体验和社区氛围。无论您是新手还是老玩家，我们都欢迎您的加入。</Paragraph><Paragraph Style="{StaticResource H3}">服务器特色</Paragraph><List>
+<Paragraph Style="{StaticResource H2}">服务器预计与2024年7月中旬再度开服</Paragraph><Paragraph Style="{StaticResource H2}">最新公告</Paragraph><Paragraph>    欢迎来到SnowCherry(雪之樱)服务器！我们致力于为玩家提供最佳的游戏体验和社区氛围。无论您是新手还是老玩家，我们都欢迎您的加入。</Paragraph><Paragraph Style="{StaticResource H3}">服务器特色</Paragraph><List>
 <ListItem><Paragraph><Bold>多样化的游戏模式</Bold>：无论您喜欢创造模式、生存模式还是竞技模式，SnowCherry都有适合您的游戏模式。</Paragraph></ListItem>
 <ListItem><Paragraph><Bold>友好的社区</Bold>：我们的社区拥有热情友善的玩家和工作人员，无论您遇到什么问题都可以得到帮助。</Paragraph></ListItem>
 <ListItem><Paragraph><Bold>定期活动</Bold>：我们会定期举办各种有趣的活动，让您在游戏中体验更多乐趣。</Paragraph></ListItem>
