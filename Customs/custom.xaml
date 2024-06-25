@@ -267,36 +267,40 @@ M480 224c43 0 84.7 11.6 120.6 33.5 34.6 21.1 62.5 50.9 80.6 86 10.4
 <StackPanel Style="{StaticResource ContentStack}">
 <FlowDocumentScrollViewer >
 <FlowDocument>
-<Paragraph Style="{StaticResource H2}">服务器预计与2024年7月中旬再度开服</Paragraph><Paragraph Style="{StaticResource H2}">最新公告</Paragraph><Paragraph>    欢迎来到SnowCherry(雪之樱)服务器！我们致力于为玩家提供最佳的游戏体验和社区氛围。无论您是新手还是老玩家，我们都欢迎您的加入。</Paragraph><Paragraph Style="{StaticResource H3}">服务器特色</Paragraph><List>
-<ListItem><Paragraph><Bold>多样化的游戏模式</Bold>：无论您喜欢创造模式、生存模式还是竞技模式，SnowCherry都有适合您的游戏模式。</Paragraph></ListItem>
+<Paragraph Style="{StaticResource H2}">最新公告</Paragraph><Paragraph>    服务器已经开服辣~</Paragraph><Paragraph Style="{StaticResource H3}">服务器特色</Paragraph><List>
+<ListItem><Paragraph><Bold>多样化模式</Bold>：无论您喜欢纯净生存还是冒险生存，SnowCherry都有适合您的游戏模式。</Paragraph></ListItem>
 <ListItem><Paragraph><Bold>友好的社区</Bold>：我们的社区拥有热情友善的玩家和工作人员，无论您遇到什么问题都可以得到帮助。</Paragraph></ListItem>
-<ListItem><Paragraph><Bold>定期活动</Bold>：我们会定期举办各种有趣的活动，让您在游戏中体验更多乐趣。</Paragraph></ListItem>
+<ListItem><Paragraph><Bold>超多的活动</Bold>：我们会定期举办各种有趣的活动，让您在游戏中体验更多乐趣。</Paragraph></ListItem>
 </List><Paragraph Style="{StaticResource H3}">服务器信息</Paragraph><Paragraph>    以下是我们的服务器信息：</Paragraph><List>
-<ListItem><Paragraph><Bold>IP地址</Bold>：snowymc.top</Paragraph></ListItem>
+<ListItem><Paragraph><Bold>IP地址</Bold>：v2.snowymc.top:11110</Paragraph></ListItem>
 <ListItem><Paragraph><Bold>版本</Bold>：1.20.4</Paragraph></ListItem>
 <ListItem><Paragraph><Bold>Wiki</Bold>：<Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="http://wiki.snowymc.top/">wiki.snowymc.top</local:MyTextButton></Underline></Paragraph></ListItem>
-<ListItem><Paragraph><Bold>论坛</Bold>：<Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="http://bbs.snowymc.top/">bbs.snowymc.top</local:MyTextButton></Underline></Paragraph></ListItem>
+<ListItem><Paragraph><Bold>论坛(施工ing..)</Bold>：<Underline><local:MyTextButton Margin="0,0,0,-2" EventType="打开网页" EventData="http://bbs.snowymc.top/">bbs.snowymc.top</local:MyTextButton></Underline></Paragraph></ListItem>
 <ListItem><Paragraph><Bold>频道</Bold>：SnowCherry1145</Paragraph></ListItem>
-</List><Paragraph>    想要加入我们的服务器？快来体验SnowCherry带给您的乐趣吧！无论您是孤独的冒险家还是喜欢与他人合作的伙伴，SnowCherry都欢迎您的加入。</Paragraph><Paragraph>    加入服务器地址：<TextBox Style="{StaticResource InlineCode}">snowymc.top</TextBox></Paragraph><Paragraph>    加入我们，与我们一起创造无限的可能！</Paragraph>
+</List><Paragraph>    想要加入我们的服务器？快来体验SnowCherry带给您的乐趣吧！无论您是孤独的冒险家还是喜欢与他人合作的伙伴，SnowCherry都欢迎您的加入。</Paragraph><Paragraph>    加入服务器地址：<TextBox Style="{StaticResource InlineCode}">snowymc.top:11110</TextBox></Paragraph><Paragraph>    加入我们，与我们一起创造无限的可能！</Paragraph>
 </FlowDocument>
 </FlowDocumentScrollViewer>
 </StackPanel>
-</local:MyCard><ContentControl Content="更  新  日  志" Template="{StaticResource Separator}"/><local:MyCard Title="Version 3.0" CanSwap="True" IsSwaped="True" Style="{StaticResource Card}" >
+</local:MyCard><ContentControl Content="更  新  日  志" Template="{StaticResource Separator}"/><local:MyCard Title="24625-1 更新" CanSwap="True" IsSwaped="True" Style="{StaticResource Card}" >
 <StackPanel Style="{StaticResource ContentStack}">
 <Border Style="{StaticResource VersionImageBorder}">
 <Border.Background>
-<ImageBrush ImageSource="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Stretch="UniformToFill" />
+<ImageBrush ImageSource="https://s21.ax1x.com/2024/06/25/pks6XnO.png" Stretch="UniformToFill" />
 </Border.Background>
-<Image Source="https://s21.ax1x.com/2024/05/02/pkkYYuV.png" Opacity="0" Stretch="Fill"/>
+<Image Source="https://s21.ax1x.com/2024/06/25/pks6XnO.png" Opacity="0" Stretch="Fill"/>
 </Border>
 <Border Style="{StaticResource VersionTitleBorder}" >
-<TextBlock Style="{StaticResource VersionTitleBlock}" Text="Ver3.0" />
+<TextBlock Style="{StaticResource VersionTitleBlock}" Text="6-25" />
 </Border><FlowDocumentScrollViewer >
 <FlowDocument>
-<Paragraph Style="{StaticResource H2}">添加的内容</Paragraph><List>
-<ListItem><Paragraph>更好看的主城</Paragraph></ListItem>
-<ListItem><Paragraph>更实用的NPC</Paragraph></ListItem>
-<ListItem><Paragraph>菜单</Paragraph></ListItem>
+<Paragraph Style="{StaticResource H2}">纯净服</Paragraph><List>
+<ListItem><Paragraph>添加背包内开启潜影盒功能</Paragraph></ListItem>
+<ListItem><Paragraph>添加物品收集者</Paragraph></ListItem>
+<ListItem><Paragraph>添加生物桶</Paragraph></ListItem>
+<ListItem><Paragraph>完善资源区</Paragraph></ListItem>
+</List><Paragraph>    <Image Source="https://s21.ax1x.com/2024/06/25/pkscVHg.png" MaxHeight="500"/></Paragraph><Paragraph Style="{StaticResource H2}">冒险服</Paragraph><List>
+<ListItem><Paragraph>添加附魔剥离功能(暂未开放)</Paragraph></ListItem>
+<ListItem><Paragraph>修复了频道内反馈的3个bug</Paragraph></ListItem>
 </List><BlockUIContainer>
   <Border Style="{StaticResource Quote}">
     <TextBlock>部分更新可能需要等待服务器重启后应用</TextBlock>
