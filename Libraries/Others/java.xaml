@@ -1,0 +1,16 @@
+<local:MyCard Margin="0,0,0,12" Title="安装JDK" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="24,40,24,15">
+          <Grid>
+               <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+               </Grid.ColumnDefinitions>
+               <local:MyButton Grid.Column="0" Margin="0,0,10,10" Height="35" Text="下载JDK"
+                    EventType="打开网页" EventData="https://cdn.yghpy.com/DL.Javas/zulu21.34.19-ca-fx-jdk21.0.3-win_x64.msi"
+                    ToolTip="包安全的" />
+                <local:MyButton Grid.Column="1" Margin="0,0,0,10" Height="35" Text="安装JDK"
+                    EventType="打开网页" EventData="https://yizhan.wiki/NitWikit/preparation/download-and-install-java"
+                    ToolTip="作者：postyizhan" />
+          </Grid>
+     </StackPanel>
+</local:MyCard>

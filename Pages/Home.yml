@@ -1,6 +1,7 @@
 name: Home
 cards:
  - bossbar
+ - java
  - bartitle
  - Welcome
  - T:Separator | content = 更新日志
